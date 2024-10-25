@@ -1,0 +1,87 @@
+.body {
+  color: white !important;
+  background-image: url("https://i.pinimg.com/originals/6f/71/4f/6f714f9e9b3eab30ccec71f3b888ca28.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 14px;
+}
+
+/* para o background-size não se alterar após o sorteio */
+@media (max-width: 1199px) {
+  .body {
+    background-size: 100% 1520px;
+  }
+}
+@media (max-width: 991px) {
+  /* medium */
+  .body {
+    height: 100%;
+    background-size: 100% 2250px;
+  }
+}
+@media (max-width: 767px) {
+  /* small */
+  .body {
+    background-size: 100% 2600px;
+  }
+  .verGrupos {
+    display: none !important;
+  }
+}
+@media (max-width: 575px) {
+  /* extra small */
+  .body {
+    background-size: 100% 3320px;
+  }
+
+  .potes ul {
+    text-align: center;
+  }
+}
+
+.jogos p {
+  margin-top: 3px;
+}
+
+.rodada1,
+.rodada2 {
+  margin-bottom: 10px !important;
+}
+
+.h1 {
+  text-align: center;
+  padding-top: 10px !important;
+}
+
+.p {
+  margin-bottom: 10px !important;
+}
+
+.li span {
+  display: flex;
+  align-items: center;
+}
+
+.pote li {
+  display: flex;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.escudos {
+  display: inline-block;
+  width: 35px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.suica {
+  /* bandeira quadrada */
+  height: 25px;
+  width: 25px;
+  margin: 0 10px 0 5px;
+}
+
+.jogos {
+  margin: 10px 0 5px 0 !important;
+}
