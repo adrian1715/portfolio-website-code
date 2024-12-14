@@ -1,0 +1,172 @@
+.navbar {
+  padding: 0;
+}
+
+.navSpotifyLogo {
+  height: 40px;
+  max-width: 100%;
+}
+
+.navLink {
+  font-weight: bolder !important;
+  padding: 28px 17px;
+  display: flex;
+  align-items: center;
+}
+
+.nav a,
+.listItem a {
+  color: white;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.a:hover {
+  color: rgb(20, 218, 20) !important;
+  text-decoration: none;
+}
+
+/* MAIN */
+.main {
+  background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
+  background-color: rgb(41, 65, 171);
+  background-size: 80%;
+  background-position: 100px;
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-bright-accent, #1ed461);
+}
+
+.main h1 {
+  font-size: 104px;
+  font-weight: bolder;
+  line-height: 140px;
+  letter-spacing: -2px;
+  padding-bottom: 24px;
+}
+
+.main p {
+  margin: 0;
+  padding-bottom: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.btnSuccess {
+  color: rgb(41, 65, 171) !important;
+  background: #1ed461 !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  padding: 12px 22px !important;
+}
+.btnSuccess:hover {
+  color: #fff !important;
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+}
+
+/* FOOTER */
+.footer {
+  background: black;
+  padding: 80px 0 50px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer span {
+  color: #919496;
+}
+
+.brasil:hover {
+  color: rgb(20, 218, 20);
+}
+
+.listTitle {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  margin: 20px 0;
+  color: #919496;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+}
+
+.listItem {
+  padding: 3px 0 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.socials img {
+  height: 30px;
+  width: 24px;
+  padding: 3px 0 4px 0;
+}
+
+.socials button {
+  height: 50px;
+}
+
+.bottomRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bottomLinks {
+  list-style: none;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItem2 {
+  margin-right: 28px;
+  color: #919496;
+}
+
+.footer .listItem2,
+.footer span {
+  font-size: 8px;
+}
+
+.spotifyAb {
+  margin-right: 15px;
+}
+
+@media (min-width: 767px) {
+  .footer .listItem2,
+  .footer span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header .navbar-brand {
+    padding: 15px 0;
+  }
+
+  .header .barra {
+    display: none;
+  }
+
+  .main {
+    background-size: 130%;
+    background-position-y: 150px;
+  }
+}
