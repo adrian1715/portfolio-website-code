@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import styles from "../../pages/Homepage.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar, faSchool } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCalendar,
+  faSchool,
+  faCertificate,
+} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function Experience() {
   const [xpType, setXpType] = useState("education");
@@ -48,6 +53,12 @@ export default function Experience() {
                     <FontAwesomeIcon icon={faSchool} className="me-2" />
                     Anhembi Morumbi
                   </span>
+                  <Link
+                    to={`/certificates/anhembi`}
+                    className="col-12 col-md-auto text-decoration-none link-light link-opacity-75-hover"
+                  >
+                    <FontAwesomeIcon icon={faCertificate} /> See Certificate
+                  </Link>
                 </div>
               </div>
               <div className="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 mb-4 border rounded p-3">

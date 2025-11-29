@@ -84,13 +84,20 @@ export default function Certificates({ isShowingList, setIsShowingList }) {
           <ul>
             {courses[lowerCaseFirstChar(currentItem)].map((course) => (
               <li key={course.id}>
-                {course.name}
-                {course.author && (
-                  <>
-                    {" "}
-                    - <i>{course.author}</i>
-                  </>
-                )}
+                <Link
+                  to={`/certificates/${lowerCaseFirstChar(currentItem)}/${
+                    course.id
+                  }`}
+                  className="text-decoration-none"
+                >
+                  {course.name}
+                  {course.author && (
+                    <>
+                      {" "}
+                      - <i>{course.author}</i>
+                    </>
+                  )}
+                </Link>
               </li>
             ))}
           </ul>
@@ -99,7 +106,7 @@ export default function Certificates({ isShowingList, setIsShowingList }) {
               to={`/certificates/${lowerCaseFirstChar(currentItem)}`}
               className="btn btn-primary me-2"
             >
-              See certificates
+              All {currentItem} certificates
             </Link>
             <button className="btn btn-secondary" onClick={closeModal}>
               Close

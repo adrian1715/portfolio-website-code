@@ -141,7 +141,7 @@ This project is private and for portfolio purposes.
 
 Visit the live website to see the portfolio in action and explore all the features mentioned above.
 
-https://portfolio-website-adrian-lobato.onrender.com
+[portfolio-website-adrian-lobato.onrender.com](https://portfolio-website-adrian-lobato.onrender.com)
 
 ---
 

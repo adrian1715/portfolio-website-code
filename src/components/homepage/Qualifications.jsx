@@ -301,7 +301,7 @@ export default function Skills() {
                     </li>
                     <li>Microsoft Office Pack (Word, Excel and PowerPoint)</li>
                     <li>Google Drive, Docs, Sheets, etc</li>
-                    <li>Fluent English and Portuguese</li>
+                    <li>Fluent English and Portuguese, Intermediate Spanish</li>
                     <li>One year New Zealand exchange experience</li>
                   </motion.ul>
                 )}
