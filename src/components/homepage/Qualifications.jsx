@@ -297,12 +297,16 @@ export default function Skills() {
                     transition={{ duration: 0.4 }}
                   >
                     <li>
+                      Class Representative of Business Computing in TU Dublin
+                    </li>
+                    <li>European Citizen (no visa required)</li>
+                    <li>
                       Basic marketing, entrepreneurship and economics knowledge
                     </li>
-                    <li>Microsoft Office Pack (Word, Excel and PowerPoint)</li>
+                    <li>Microsoft Office (Word, Excel, PowerPoint)</li>
                     <li>Google Drive, Docs, Sheets, etc</li>
                     <li>Fluent English and Portuguese, Intermediate Spanish</li>
-                    <li>One year New Zealand exchange experience</li>
+                    <li>Experience abroad in Ireland and New Zealand</li>
                   </motion.ul>
                 )}
               </AnimatePresence>

@@ -17,7 +17,7 @@ export default function Experience() {
         <h2 id="experience-title" className="fs-1">
           Experience
         </h2>
-        <p id="experience-subtitle">My personal and professional journey</p>
+        <p id="experience-subtitle">My academic and professional journey</p>
       </div>
       <div id="experience-content" className="w-100">
         <div id="experience-head" className="row justify-content-center mb-4">
@@ -47,7 +47,16 @@ export default function Experience() {
           {xpType === "education" && (
             <>
               <div className="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 mb-4 border rounded p-3">
-                <h3>IT Management Graduation</h3>
+                <h3>Bachelor's in Business Computing</h3>
+                <div className="row justify-content-between">
+                  <span className="col-12 col-md-auto">
+                    <FontAwesomeIcon icon={faSchool} className="me-2" />
+                    Technological University Dublin
+                  </span>
+                </div>
+              </div>
+              <div className="col-12 col-md-11 col-lg-8 col-xl-7 col-xxl-6 mb-4 border rounded p-3">
+                <h3>IT Management - Technological Course Level 6</h3>
                 <div className="row justify-content-between">
                   <span className="col-12 col-md-auto">
                     <FontAwesomeIcon icon={faSchool} className="me-2" />

@@ -30,9 +30,8 @@ export default function About() {
           <p className="m-0">
             I am a proactive and dedicated person, who is easy to get along with
             on a daily basis, and is always willing to help and learn with
-            others. I aim to develop and contribute with my skills as much as I
-            can to both the contractor and my own personal and professional
-            growth.
+            others. I aim to solve real-world problems, creating efficient and
+            scalable solutions that meet deadlines and business needs.
           </p>
         </div>
       </div>
