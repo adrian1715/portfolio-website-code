@@ -7,10 +7,14 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Portfolio() {
   const projects = [
-    "Website Clones",
-    "Letrico",
-    "Simulators",
-    "Pomodoro Timer",
+    {
+      name: "desempregados.com",
+      website: "https://desempregados-com.onrender.com",
+    },
+    { name: "Website Clones" },
+    { name: "Letrico" },
+    { name: "Simulators" },
+    { name: "Pomodoro Timer" },
   ];
 
   return (
@@ -33,21 +37,23 @@ export default function Portfolio() {
                 >
                   <div className="border rounded">
                     <img
-                      src={`/images/${toLinkFormatter(proj)}-project.png`}
+                      src={`/images/${toLinkFormatter(proj.name)}-project.png`}
                       className="border rounded w-100 mb-4"
                     />
                     <div>
-                      <h3 className="fs-2 text-center">{proj}</h3>
+                      <h3 className="fs-2 text-center">{proj.name}</h3>
                       <div className="row justify-content-center mb-4">
                         <a
                           href={`https://github.com/adrian1715/${
-                            proj === "Letrico"
+                            proj.name === "Letrico"
                               ? "letrico"
-                              : proj === "Simulators"
+                              : proj.name === "Simulators"
                               ? "simulador-de-sorteio"
-                              : proj === "Pomodoro Timer"
+                              : proj.name === "Pomodoro Timer"
                               ? "pomodoro-timer"
-                              : "recriando-sites"
+                              : proj.name === "Website Clones"
+                              ? "recriando-sites"
+                              : proj.name
                           }`}
                           target="_blank"
                           className="btn btn-outline-primary col-11 col-lg-5 mb-2 mb-lg-0 me-lg-2"
@@ -55,7 +61,12 @@ export default function Portfolio() {
                           Github<i className="bi bi-github ms-2"></i>
                         </a>
                         <a
-                          href={`/projects/${toLinkFormatter(proj)}`}
+                          href={
+                            proj.website
+                              ? proj.website
+                              : `/projects/${toLinkFormatter(proj.name)}`
+                          }
+                          target="__blank"
                           className="btn btn-outline-secondary col-11 col-lg-5 ms-lg-2"
                         >
                           Live Demo<i className="bi bi-wifi ms-2"></i>
