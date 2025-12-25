@@ -15,23 +15,27 @@ export default function About() {
           id="about-image"
           className="col-lg-5 col-xl-4 mb-4 mb-lg-0 d-flex justify-content-center align-items-center"
         >
-          <img src="/images/me-2.png" className="rounded img-fluid" />
+          <img src="/images/me-2.jpg" className="rounded img-fluid" />
         </div>
-        <div className="col-lg-6 px-md-4 px-lg-3 d-flex flex-column justify-content-center">
+        <div className="col-lg-7 col-xl-6 px-md-4 px-lg-3 d-flex flex-column justify-content-center">
           <p>
-            I am a young Italian-Brazilian web developer, passionate about
-            creativity and always willing to work on new projects. As I have
-            always been interested in technology, programming attracted me for
-            the first time when I was 15, mainly because of the enormous
-            creative freedom it provides. Since then, I have dedicated myself to
-            studying new technologies and developing different ideas and
-            projects, from games to even websites and applications.
+            Full-Stack Developer with professional experience in web development
+            and IT support. Graduated in IT Management and pursuing Business
+            Computing at the Technological University of Dublin. Actively
+            building modern web applications using technologies like JavaScript,
+            React, Node.js, PHP, and SQL. EU citizen with full work rights in
+            Ireland, available for immediate start. Passionate about solving
+            real-world problems, creating efficient and scalable solutions that
+            meet deadlines and business needs.
           </p>
           <p className="m-0">
-            I am a proactive and dedicated person, who is easy to get along with
-            on a daily basis, and is always willing to help and learn with
-            others. I aim to solve real-world problems, creating efficient and
-            scalable solutions that meet deadlines and business needs.
+            I am a proactive and dedicated person, easy to get along with on a
+            daily basis, and always willing to help and learn with others. As I
+            have always been interested in technology, programming attracted me
+            for the first time when I was 15, mainly because of the enormous
+            creative freedom it provides. Since then, I have dedicated myself to
+            studying new technologies and developing different ideas and
+            projects, from games to apps and websites.
           </p>
         </div>
       </div>
